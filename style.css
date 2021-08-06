@@ -1,0 +1,96 @@
+header,footer{
+	text-align: center;
+	color: #a3c2c2;
+	background-color: #000d1a;
+}
+header{
+	letter-spacing: 3px;
+	border-bottom: 2px solid #ff6600;
+}
+body{
+	background-color: #e6e6ff;
+}
+h1{
+	margin: 0;
+	padding-bottom: 5px;
+}
+h2{
+	color: white;
+	text-align: center;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+	background-color: #669999;
+}
+img{
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+.pad{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.col-lg-3,.col-md-3,.col-md-4{
+	text-align: center;
+}
+.col-lg-9,.col-md-9,.col-md-8{
+	text-align: justify;
+	padding-right: 0;
+}
+.btn{
+	color: #ff6600;
+	border-color: #ff6600;
+}
+.btn:hover{
+	background-color: #ff6600;
+	border-color: #ff6600;
+	color: white;
+}
+.elements-center{
+	align-items: center;
+}
+section .row{
+	padding-right: 0;
+}
+#section1 span{
+	color: white;
+	background-color: #ff6600;
+	border-radius: 5px;
+	padding: 5px;
+}
+#comments,#tech{
+	font-size: 15px;
+	line-height: 15px;
+	color: #3d5c5c;
+}
+#comments div{
+	margin-top: 10px;
+}
+#tech{
+	margin-top: 100px;
+}
+#tech-categories{
+	margin-top: 20px;
+	margin-left: -20px;
+}
+#tech-categories span{
+	margin-left: 20px;
+}
+@media(max-width: 767px){
+	a{
+	margin-bottom: 5px;
+	}
+	#tech{
+		margin-top: 50px;
+	}
+	.col-md-9,.col-md-8{
+		text-align: justify;
+	}
+}
+@media(max-width: 575px){
+	#tech-categories{
+		display: flex;
+		justify-content: space-between;
+	}
+}
