@@ -15,7 +15,7 @@
 			<h2>Monika Folatko</h2>
 			<div class="row pad">
 				<div class="col-lg-9 col-md-8">
-					I am an aspiring junior frontend developer. For now, I use HTML and CSS proficiently. I have the basics of JavaScript and jQuery and I develop myself in this field. I have recently started using GIT for project maintenance. I take inspiration for projects from my own ideas or tasks found on the Web, which I rebuilt and extend. I am willing to merge my passion for programming with work, so any internship or working position offer would be appreciated.
+					I am an aspiring junior frontend developer. For now, I have a good knowledge of HTML and CSS. I know the basics of JavaScript and jQuery and I develop myself in this field. I have recently started using GIT for project maintenance. I take inspiration for projects from my own ideas or tasks found on the Web, which I rebuilt and extend. I am willing to merge my passion for programming with work, so any internship or working position offer would be appreciated.
 					<div id="tech">Technologies I use:<br><div id="tech-categories"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>jQuery</span><span>GIT</span><span>Bootstrap</span></div></div>
 				</div>
 				<div class="col-lg-3 col-md-4">
