@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Industrial Pub</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-sm visible-md visible-lg">
+						<div id="logo-img"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Industrial Pub</h1></a>
+						<p>food & drink</p>
+					</div>
+					<!--button for small devices only-->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+       					<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu.html">
+								<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><br class="hidden-xs">Menu</a>
+						</li>
+						<li>
+							<a href="drinks.html">
+								<span class="glyphicon glyphicon-glass" aria-hidden="true"></span><br class="hidden-xs">Drinks</a>
+						</li>
+						<li>
+							<a href="info.html">
+								<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><br class="hidden-xs">Info</a>
+						</li>
+						<li id="phone" class="hidden-xs pull-right">
+							<a href="tel:500-400-300">
+								<span class="glyphicon glyphicon-earphone"></span><span class="text-center"> 500-400-300</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav><hr>
+	</header>
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:500-400-300">
+			<span class="glyphicon glyphicon-earphone"></span> 500-400-300</a>
+	</div>
+	<div id="menu-content" class="container">
+		<div id="menu" class="row">
+			<h2>Alcohol</h2>
+			<section class="col-sm-6">
+					<h3>Tap beer</h3>
+					<ul>
+						<li><div class="dish-position">lager<span class="menu-price">3&euro;</span></div></li>
+						<li><div class="dish-position">wheat beer<span class="menu-price">3&euro;</span></div></li>
+						<li><div class="dish-position">india pale ale<span class="menu-price">3&euro;</span></div></li>
+						<li><div class="dish-position">sour ale<span class="menu-price">3&euro;</span></div></li>
+						<li><div class="dish-position">bock<span class="menu-price">3&euro;</span></div></li>
+						<li><div class="dish-position">stout<span class="menu-price">3&euro;</span></div></li>
+						<li><div class="dish-position">porter<span class="menu-price">3&euro;</span></div></li>
+					</ul>
+					<hr>
+					<h3>Craft bottle beer</h3>
+					<ul>
+						<li><div class="dish-position">herbal wheat beer<span class="menu-price">4&euro;</span></div></li>
+						<li><div class="dish-position">passionfruit ale<span class="menu-price">4&euro;</span></div></li>
+						<li><div class="dish-position">banana stout<span class="menu-price">4&euro;</span></div></li>
+						<li><div class="dish-position">gingerbread porter<span class="menu-price">4&euro;</span></div></li>
+					</ul>
+					<hr class="visible-xs">	
+			</section>
+			<section class="col-sm-6">
+				<h3>Wine</h3>
+				<ul>
+					<li><div class="dish-position">house red<span class="menu-price">4&euro;</span></div><div class="menu-desc">dry/semi dry/semi sweet/sweet</div></li>
+					<li><div class="dish-position">house white<span class="menu-price">4&euro;</span></div><div class="menu-desc">dry/semi dry/semi sweet/sweet</div></li>
+				</ul>	
+				<hr>
+				<h3>Cocktails</h3>
+				<ul>
+					<li><div class="dish-position">screwdriver<span class="menu-price">5&euro;</span></div><div class="menu-desc">vodka with orange juice</div></li>
+					<li><div class="dish-position">blue lagoon<span class="menu-price">5&euro;</span></div><div class="menu-desc">vodka with blue Curaçao & lemonade</div></li>
+					<li><div class="dish-position">strawberry margarita<span class="menu-price">5&euro;</span></div><div class="menu-desc">tequila with triple sec, strawberry soda & lime</div></li>
+					<li><div class="dish-position">mojito<span class="menu-price">5&euro;</span></div><div class="menu-desc">white rum with lime, sugar, soda water & spearmint</div></li>
+					<li><div class="dish-position">old fashioned<span class="menu-price">5&euro;</span></div><div class="menu-desc">whiskey with lemon juice, sugar & egg white</div></li>
+					<li><div class="dish-position">whisky sour<span class="menu-price">5&euro;</span></div><div class="menu-desc">bourbon with Angostura & sugar</div></li>
+					<li><div class="dish-position">martini<span class="menu-price">5&euro;</span></div><div class="menu-desc">gin with vermouth & olive</div></li>
+					<li><div class="dish-position">choco martini<span class="menu-price">5&euro;</span></div><div class="menu-desc">vodka with chocolate liqueur & chocolate sirup</div></li>
+				</ul>
+			</section>
+		</div>
+	</div>
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="address" class="col-sm-4">
+					<span>Address</span><br>
+						Kamienskiego 11<br>
+						30-644 Cracow
+						<hr class="visible-xs">
+				</section>
+				<section id="hours" class="col-sm-4">
+					<span>Opening hours</span><br>
+						Sun-Thurs: 12pm-11pm<br>
+						Fri-Sat: 12pm-1am
+						<hr class="visible-xs">
+				</section>
+				<section id="delivery" class="col-sm-4">
+					<span>Delivery</span><br>
+					Free delivery in Cracow on orders over 20&euro;
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Monika Folatko 2021</div>
+		</div>
+	</footer>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

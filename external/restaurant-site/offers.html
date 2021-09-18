@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Special offer</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-sm visible-md visible-lg">
+						<div id="logo-img"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Industrial Pub</h1></a>
+						<p>food & drink</p>
+					</div>
+					<!--button for small devices only-->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+       					<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu.html">
+								<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><br class="hidden-xs">Menu</a>
+						</li>
+						<li>
+							<a href="drinks.html">
+								<span class="glyphicon glyphicon-glass" aria-hidden="true"></span><br class="hidden-xs">Drinks</a>
+						</li>
+						<li>
+							<a href="info.html">
+								<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><br class="hidden-xs">Info</a>
+						</li>
+						<li id="phone" class="hidden-xs pull-right">
+							<a href="tel:500-400-300">
+								<span class="glyphicon glyphicon-earphone"></span><span class="text-center"> 500-400-300</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav><hr>
+	</header>
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:500-400-300">
+			<span class="glyphicon glyphicon-earphone"></span> 500-400-300</a>
+	</div>
+	<div id="main-content" class="container">
+		<h2 id=menu-categories-title class="text-center">Special offers</h2>
+		<h4 class="text-center">
+			perfect matches in perfect prices
+		</h4>
+		<section class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="beerfr" class="category-tile">
+						<img src="pics/aleksander-fox-8gBBHX_SqMo-unsplash.jpg" width="250" height="200">
+						<span>beer & friends</span>
+						<div class="dish-desc"><div class="price">7&euro;</div>tap beer of your choice with salami, cheese, peanuts and olives</div>
+					</div>		
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="burger" class="category-tile">
+						<img src="pics/john-fornander-VedLcUfLi74-unsplash.jpg" width="250" height="200">
+						<div class="dish-desc"><div class="price">9&euro;</div>classic beef burger and fries with sauce of your choice</div>
+						<span>burger & fries</span>
+					</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="beerco" class="category-tile">
+						<img src="pics/timothy-hales-bennett-EoC_IuYmtug-unsplash.jpg" width="250" height="200">
+						<span>beer company</span>
+						<div class="dish-desc"><div class="price">10&euro;</div>five of our tap beers of your choice</div>
+					</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="marg" class="category-tile">
+						<img src="pics/jay-gajjar-JRT-lkrdqm8-unsplash.jpg" width="250" height="200">
+						<span>margarita & nachos</span>
+						<div class="dish-desc"><div class="price">8&euro;</div>strawberry margarita and cheesy nachos with spices</div>
+					</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="wine" class="category-tile">
+						<img src="pics/kamil-kalbarczyk-QJPoG1MG_CQ-unsplash.jpg" width="250" height="200">
+						<span>wine & salad</span>
+						<div class="dish-desc"><div class="price">8&euro;</div>dry white wine and chicken salad with grana padano and tomatoes</div>
+					</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="coffee" class="category-tile">
+						<img src="pics/nathan-dumlao-gOn7dKcCWKg-unsplash.jpg" width="250" height="200">
+						<span>coffee & cake</span>
+						<div class="dish-desc"><div class="price">5&euro;</div>coffee of your choice and muffin of the day</div>
+					</div>
+			</div>
+		</section>	
+	</div>
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="address" class="col-sm-4">
+					<span>Address</span><br>
+						Kamienskiego 11<br>
+						30-644 Cracow
+						<hr class="visible-xs">
+				</section>
+				<section id="hours" class="col-sm-4">
+					<span>Opening hours</span><br>
+						Sun-Thurs: 12pm-11pm<br>
+						Fri-Sat: 12pm-1am
+						<hr class="visible-xs">
+				</section>
+				<section id="delivery" class="col-sm-4">
+					<span>Delivery</span><br>
+					Free delivery in Cracow on orders over 20&euro;
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Monika Folatko 2021</div>
+		</div>
+	</footer>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/script-offers.js"></script>
+</body>
+</html>

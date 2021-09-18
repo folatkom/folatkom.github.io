@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Industrial Pub</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-sm visible-md visible-lg">
+						<div id="logo-img"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Industrial Pub</h1></a>
+						<p>food & drink</p>
+					</div>
+					<!--button for small devices only-->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+       					<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu.html">
+								<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><br class="hidden-xs">Menu</a>
+						</li>
+						<li>
+							<a href="drinks.html">
+								<span class="glyphicon glyphicon-glass" aria-hidden="true"></span><br class="hidden-xs">Drinks</a>
+						</li>
+						<li>
+							<a href="info.html">
+								<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><br class="hidden-xs">Info</a>
+						</li>
+						<li id="phone" class="hidden-xs pull-right">
+							<a href="tel:500-400-300">
+								<span class="glyphicon glyphicon-earphone"></span><span class="text-center"> 500-400-300</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav><hr>
+	</header>
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:500-400-300">
+			<span class="glyphicon glyphicon-earphone"></span> 500-400-300</a>
+	</div>
+	<div id="menu-content" class="container">
+		<div id="menu" class="row">
+			<h2>Menu</h2>
+			<section class="col-sm-4">
+					<h3>Grill</h3>
+					<ul>
+						<li><div class="dish-position">pork ribs<span class="menu-price">10&euro;</span></div><div class="menu-desc">& baked potatoes & pickles</div></li>
+						<li><div class="dish-position">beef steak<span class="menu-price">15&euro;</span><div class="menu-desc">& french fries & vegetables</div></li>
+						<li><div class="dish-position">pork neck<span class="menu-price">8&euro;</span><div class="menu-desc">& roasted potatoes & coleslaw</div></li>
+						<li><div class="dish-position">lamb shish kebab<span class="menu-price">8&euro;</span><div class="menu-desc">& roasted vegetables & mashroom</div></li>
+					</ul>
+					<hr>
+					<h3>Burgers</h3>
+					<ul>
+						<li><div class="dish-position">classic<span class="menu-price">8&euro;</span><div class="menu-desc">beef, cheddar & pickles</div></li>
+						<li><div class="dish-position">cheese & bacon<span class="menu-price">8&euro;</span><div class="menu-desc">beef, cheddar, bacon & pickles</div></li>
+						<li><div class="dish-position">spicy<span class="menu-price">8.5&euro;</span><div class="menu-desc">beef, cheddar, bacon & jalapeno</div></li>
+						<li><div class="dish-position">whiskey bbq<span class="menu-price">8&euro;</span><div class="menu-desc">beef, cheddar & whiskey sauce</div></li>
+						<li><div class="dish-position">beetroot<span class="menu-price">7&euro;</span><div class="menu-desc">beetroot, cheddar & pickles</div></li>
+					</ul>
+					<hr>
+					<h3>Toasts</h3>
+					<ul>
+						<li><div class="dish-position">gouda & olives<span class="menu-price">3&euro;</span></div></li>
+						<li><div class="dish-position">gouda, salami & mashroom<span class="menu-price">4&euro;</span></div></li>
+						<li><div class="dish-position">mozarella, chicken & pesto<span class="menu-price">4.5&euro;</span></div></li>
+					</ul>
+					<hr class="visible-xs">
+			</section>
+			<section class="col-sm-4">
+				<h3>Salads</h3>
+				<ul>
+					<li><div class="dish-position">chicken<span class="menu-price">7&euro;</span><div class="menu-desc">chicken, grana padano & tomatoes</div></li>
+					<li><div class="dish-position">salmon<span class="menu-price">7&euro;</span><div class="menu-desc">smoked salmon, feta & radish</div></li>
+					<li><div class="dish-position">haloumi<span class="menu-price">6&euro;</span><div class="menu-desc">halloumi, pineapple,  pomegranate</div></li>
+					<li><div class="dish-position">spring<span class="menu-price">5&euro;</span><div class="menu-desc">seasonal vegetables & herbs</div></li>
+				</ul>	
+				<hr>
+				<h3>Sides</h3>
+				<ul>
+					<li><div class="dish-position">french fries<span class="menu-price">4&euro;</span></div></li>
+					<li><div class="dish-position">plain nachos<span class="menu-price">4&euro;</span></div></li>
+					<li><div class="dish-position">cheesy nachos<span class="menu-price">5.5&euro;</span></div></li>
+					<li><div class="dish-position">peanuts<span class="menu-price">2&euro;</span></div></li>
+					<li><div class="dish-position">popcorn<span class="menu-price">2&euro;</span></div></li>
+					<li><div class="dish-position">sauce<span class="menu-price">1.5&euro;</span></div><div class="menu-desc">spicy/herbal/seasonal chutney</div></li>
+				</ul>
+				<hr>
+				<h3>Cakes</h3>
+				<ul>
+					<li><div class="dish-position">cookie<span class="menu-price">2&euro;</span></div></li>
+					<li><div class="dish-position">muffin<span class="menu-price">2&euro;</span></div></li>
+					<li><div class="dish-position">cheesecake<span class="menu-price">3&euro;</span></div></li>
+					<li><div class="dish-position">brownie<span class="menu-price">3&euro;</span></div></li>
+				</ul>
+				<hr class="visible-xs">
+			</section>
+			<section class="col-sm-4">
+				<h3>Soft drinks</h3>
+				<ul>
+					<li><div class="dish-position">cola<span class="menu-price">2&euro;</span></div><div class="menu-desc">normal/zero</div></li>
+					<li><div class="dish-position">soda<span class="menu-price">2&euro;</span></div><div class="menu-desc">fanta/sprite</div></li>
+					<li><div class="dish-position">water<span class="menu-price">1&euro;</span></div><div class="menu-desc">still/sparkling</div></li>
+					<li><div class="dish-position">lemonade<span class="menu-price">3&euro;</span></div><div class="menu-desc">lemon/orange</div></li>
+					<li><div class="dish-position">juice<span class="menu-price">2&euro;</span></div><div class="menu-desc">orange/apple/blackberry</div></li>
+					<li><div class="dish-position">ice tea<span class="menu-price">2&euro;</span></div><div class="menu-desc">lemon/peach</div></li>
+				</ul>
+				<hr>
+				<h3>Coffee</h3>
+				<ul>
+					<li><div class="dish-position">espresso<span class="menu-price">3&euro;</span></div></li>
+					<li><div class="dish-position">macchiato<span class="menu-price">3&euro;</span></div></li>
+					<li><div class="dish-position">latte<span class="menu-price">3&euro;</span></div></li>
+					<li><div class="dish-position">mocha<span class="menu-price">2&euro;</span></div></li>
+				</ul>
+				<hr>
+				<h3>Tea</h3>
+				<ul>
+					<li><div class="dish-position">green<span class="menu-price">2&euro;</span></div></li>
+					<li><div class="dish-position">black<span class="menu-price">2&euro;</span></div></li>
+					<li><div class="dish-position">herbal<span class="menu-price">2&euro;</span><div class="menu-desc">mint/camomile</div></li>
+				</ul>
+				<hr class="visible-xs">
+			</section>
+		</div>
+	</div>
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="address" class="col-sm-4">
+					<span>Address</span><br>
+						Kamienskiego 11<br>
+						30-644 Cracow
+						<hr class="visible-xs">
+				</section>
+				<section id="hours" class="col-sm-4">
+					<span>Opening hours</span><br>
+						Sun-Thurs: 12pm-11pm<br>
+						Fri-Sat: 12pm-1am
+						<hr class="visible-xs">
+				</section>
+				<section id="delivery" class="col-sm-4">
+					<span>Delivery</span><br>
+					Free delivery in Cracow on orders over 20&euro;
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Monika Folatko 2021</div>
+		</div>
+	</footer>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
