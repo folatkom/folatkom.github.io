@@ -13,14 +13,26 @@
 </header>
 <main>
   <section id="welcome-section">
-      <div id="left-arrow"></div>
-      <div id="welcome">
+      <div id="welcome" class="visible-xs">
        hello world<br> 
       <h1>my name is folatkom</h1>
       <p>welcome to my portfolio</p>
       </div>
-    <div id="right-arrow"></div>
-  </section>
+      <div class="techs">
+        <div id="tech-left-first" class="tech tech-left">HTML</div>
+        <div id="tech-left-second"class="tech tech-left">CSS</div>
+        <div id="tech-left-third" class="tech tech-left">SASS</div>
+      </div>
+      <div class="visible-md">
+       hello world<br> 
+      <h1>my name is folatkom</h1>
+      <p>welcome to my portfolio</p>
+      </div>
+      <div class="techs">
+        <div id="tech-right-first" class="tech tech-right tech-first">JavaScript</div>
+        <div id="tech-right-second" class="tech tech-right tech-second">jQuery</div>
+        <div id="tech-right-third" class="tech tech-right tech-third">Bootstrap</div>
+      </div>
   </section>
   <section id="projects">
     <p>Here are some of my projects:</p>
@@ -32,7 +44,7 @@
 </main>
 <footer>
   <span>&copy; Monika Folatko 2021</span>
-  <span>If you want more of my work, please visit my <a href="https://www.freecodecamp.org/folatkom" id="profile-link" target="_blank">FCC profile</a>.</span>
+  <span><a href="https://github.com/folatkom" class="profile-link" target="_blank"><i class="fab fa-github"></i></a> <a href="https://www.linkedin.com/in/monika-folatko-379463131/" class="profile-link" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://www.freecodecamp.org/folatkom" class="profile-link" target="_blank"><i class="fab fa-free-code-camp"></i></a></span>
 </footer>
 </body>
 </html>
