@@ -7,7 +7,6 @@ body{
   margin: 0;
   font-family: calibri, sans-serif;
   color:#333333;
-  overflow-x: hidden;
 }
 #navbar{
   text-align: right;
@@ -40,6 +39,7 @@ body{
   min-height: 220px;
   display: flex;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 .tech{
   background-color: #506AD4;
@@ -165,6 +165,7 @@ footer a{
   #project-tiles{
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   #projects{
     height:auto;
