@@ -37,7 +37,7 @@
   <section id="projects">
     <p>Here are some of my projects:</p>
     <p id="project-tiles">
-      <a id="project-tile-1" class="project-tile" href="external\restaurant-site\index.html" target="_blank"><img src="img\restaurant-overview.jpg" alt="Screenshot of restaurant site"></a>
+      <a id="project-tile-1" class="project-tile" href="https://folatkom.github.io/restaurant-site/" target="_blank"><img src="img\restaurant-overview.jpg" alt="Screenshot of restaurant site"></a>
       <a id="project-tile-2"class="project-tile" href="external\memory\index.html" target="_blank"><img src="img\memory-overview.jpg" alt="Screenshot of memory game"></a>
     </p>
   </section>
