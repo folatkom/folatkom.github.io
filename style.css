@@ -123,7 +123,7 @@ body{
 #project-tiles{
   display:flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 10vh;
 }
 .project-tile{
   margin: auto 5px;
@@ -182,6 +182,9 @@ footer a{
   }
   #welcome{
     width: 100%;
+  }
+  #project-tiles{
+    margin-top: auto;
   }
   footer{
     flex-direction: column;
