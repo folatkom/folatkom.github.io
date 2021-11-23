@@ -118,7 +118,6 @@ body{
   padding-top:10px;
   position: absolute;
   min-height: 100vh;
-  width: 100vw;
 }
 #project-tiles{
   display:flex;
