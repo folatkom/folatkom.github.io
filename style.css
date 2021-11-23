@@ -123,6 +123,7 @@ body{
 #project-tiles{
   display:flex;
   justify-content: center;
+  align-items: center;
 }
 .project-tile{
   margin: auto 5px;
@@ -147,7 +148,6 @@ footer{
   align-items: center;
   position: fixed;
   bottom:0;
-  width:100%;
   z-index: 1;
   padding: .5vw;
 }
