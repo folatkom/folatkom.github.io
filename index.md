@@ -34,11 +34,98 @@
         <div id="tech-right-third" class="tech tech-right tech-third">Bootstrap</div>
       </div>
   </section>
+  <hr>
   <section id="projects">
-    <p>Here are some of my projects:</p>
-    <p id="project-tiles">
-      <a id="project-tile-1" class="project-tile" href="https://folatkom.github.io/restaurant-site/" target="_blank"><img src="img\restaurant-overview.jpg" alt="Screenshot of restaurant site"></a>
-      <a id="project-tile-2"class="project-tile" href="https://folatkom.github.io/memory-game/" target="_blank"><img src="img\memory-overview.jpg" alt="Screenshot of memory game"></a>
+    <div class="row">
+    <div class="dot1 dot"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot3 dot"></div>
+    <div class="dot4 dot"></div>
+    <div class="dot5 dot"></div>
+    <div class="dot6 dot"></div>
+    <div class="dot7 dot"></div>
+    <div class="dot8 dot"></div>
+    <div class="dot9 dot"></div>
+    <div class="dot10 dot"></div>
+  </div>
+  <div class="row2">
+    <div class="dot1 dot"></div>
+    <div class="dot4 dot"></div>
+    <div class="dot1 dot"></div>
+    <div class="dot8 dot"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot6 dot"></div>
+    <div class="dot7 dot"></div>
+    <div class="dot1 dot"></div>
+    <div class="dot3 dot"></div>
+    <div class="dot4 dot"></div>
+  </div>
+  <div class="row2">
+    <div class="dot3 dot"></div>
+    <div class="dot4 dot"></div>
+    <div class="dot1 dot"></div>
+    <div class="dot1 dot"></div>
+    <div class="dot5 dot"></div>
+    <div class="dot8 dot"></div>
+    <div class="dot7 dot"></div>
+    <div class="dot10 dot"></div>
+    <div class="dot1 dot"></div>
+    <div class="dot7 dot"></div>
+  </div>
+  <div class="row2">
+    <div class="dot1 dot"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot10 dot"></div>
+    <div class="dot4 dot"></div>
+    <div class="dot6 dot"></div>
+    <div class="dot1 dot"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot8 dot"></div>
+    <div class="dot9 dot"></div>
+    <div class="dot10 dot"></div>
+  </div>
+    <div class="row">
+    <div class="dot1 dot"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot3 dot"></div>
+    <div class="dot4 dot"></div>
+    <div class="dot1 dot"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot6 dot"></div>
+    <div class="dot8 dot"></div>
+    <div class="dot9 dot"></div>
+    <div class="dot10 dot"></div>
+  </div>
+  <div class="row">
+    <div class="dot invisible"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot invisible"></div>
+    <div class="dot1 dot"></div>
+    <div class="dot5 dot"></div>
+    <div class="dot invisible"></div>
+    <div class="dot7 dot"></div>
+    <div class="dot10 dot"></div>
+    <div class="dot invisible"></div>
+    <div class="dot7 dot"></div>
+  </div>
+  <div class="row">
+    <div class="dot4 dot"></div>
+    <div class="dot invisible"></div>
+    <div class="dot invisible"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot invisible"></div>
+    <div class="dot invisible"></div>
+    <div class="dot invisible"></div>
+    <div class="dot5 dot"></div>
+    <div class="dot invisible"></div>
+    <div class="dot invisible"></div>
+  </div>
+  <aside>
+    <h3>Here are some of my projects:</h3>
+    <a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img src="img\restaurant.png" alt="Screenshot of restaurant site" width="605px"></a>
+    <a  href="https://folatkom.github.io/memory-game/" target="_blank"><img src="img\memory.jpg" alt="Screenshot of memory game" width="300px"></a>
+    <a  href="https://folatkom.github.io/blink-game/" target="_blank"><img src="img\blink.png" alt="Screenshot of blink game"  width="300px"></a>
+  </aside>
     </p>
   </section>
 </main>
