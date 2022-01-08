@@ -122,16 +122,19 @@
   </div>
   <aside>
     <h3>Here are some of my projects:</h3>
-    <a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img src="img\restaurant.png" alt="Screenshot of restaurant site" width="605px"></a>
-    <a  href="https://folatkom.github.io/memory-game/" target="_blank"><img src="img\memory.jpg" alt="Screenshot of memory game" width="300px"></a>
-    <a  href="https://folatkom.github.io/blink-game/" target="_blank"><img src="img\blink.png" alt="Screenshot of blink game"  width="300px"></a>
+    <a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img id="tile-1" class="tile" src="img\img-10.png" alt="Screenshot of restaurant site" width="605px"></a>
+    <a  href="https://folatkom.github.io/memory-game/" target="_blank"><img id="tile-2" class="tile" src="img\img-20.png" alt="Screenshot of memory game" width="300px"></a>
+    <a  href="https://folatkom.github.io/blink-game/" target="_blank"><img id="tile-3" class="tile" src="img\img-30.png" alt="Screenshot of blink game"  width="300px"></a>
   </aside>
     </p>
   </section>
 </main>
 <footer>
-  <span>&copy; Monika Folatko 2021</span>
+  <span>&copy; Monika Folatko 2022</span>
   <span><a href="https://github.com/folatkom" class="profile-link" target="_blank"><i class="fab fa-github"></i></a> <a href="https://www.linkedin.com/in/monika-folatko-379463131/" class="profile-link" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://www.freecodecamp.org/folatkom" class="profile-link" target="_blank"><i class="fab fa-free-code-camp"></i></a></span>
 </footer>
+
+<script src = "jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
