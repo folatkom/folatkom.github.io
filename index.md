@@ -3,6 +3,7 @@
 <head>
 	<title>folatkom | portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 <body>
 <header>
@@ -122,7 +123,8 @@
   </div>
   <aside>
     <h3>Here are some of my projects:</h3>
-    <a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img id="tile-1" class="tile" src="img\img-10.png" alt="Screenshot of restaurant site" width="605px"></a>
+    <div><a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img id="tile-1" class="tile" src="img\img-10.png" alt="Screenshot of restaurant site" width="605px"></a></div>
+    <a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img id="tile-1-sm" class="tile" src="img\img-10-sm.png" alt="Screenshot of restaurant site" width="300px"></a>
     <a  href="https://folatkom.github.io/memory-game/" target="_blank"><img id="tile-2" class="tile" src="img\img-20.png" alt="Screenshot of memory game" width="300px"></a>
     <a  href="https://folatkom.github.io/blink-game/" target="_blank"><img id="tile-3" class="tile" src="img\img-30.png" alt="Screenshot of blink game"  width="300px"></a>
   </aside>

@@ -207,6 +207,9 @@ img{
   padding: 2px;
   border-radius: 20px;
 }
+#tile-1-sm{
+  display: none;
+}
 .hover{
   opacity: 0.5;
 }
@@ -234,14 +237,12 @@ footer a{
   display: none;
 }
 @media(max-width: 991px){
-  #project-tiles{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   #projects{
     height:auto;
     padding:40px;
+  }
+  aside{
+    width: 100%;
   }
 }
 @media(max-width: 767px){
@@ -254,8 +255,8 @@ footer a{
   #welcome{
     width: 100%;
   }
-  #project-tiles{
-    margin-top: auto;
+  aside{
+    padding-left: 20px;
   }
   footer{
     flex-direction: column;
@@ -266,6 +267,22 @@ footer a{
   }
   .visible-md{
     display: none;
+  }
+}
+@media(max-width: 622px){
+  #tile-1{
+    display: none;
+  }  
+  #tile-1-sm{
+    display: inherit;
+  }
+  #projects{
+    padding-top: 0;
+    margin-bottom: 30px;
+  }
+  aside{
+    font-size: .8em;
+    margin-top: 0;
   }
 }
 @media(max-width: 350px){
@@ -286,5 +303,8 @@ footer a{
   }
   #tech-right-third{
     animation: techs-appear-left .5s 3s both ease-in-out;
+  }
+  .tile{
+    width: 80%
   }
 }
