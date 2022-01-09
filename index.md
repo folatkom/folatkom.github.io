@@ -24,7 +24,7 @@
         <div id="tech-left-second"class="tech tech-left">CSS</div>
         <div id="tech-left-third" class="tech tech-left">SASS</div>
       </div>
-      <div class="visible-md">
+      <div id="welcome-md" class="visible-md">
        hello world<br> 
       <h1>my name is folatkom</h1>
       <p>welcome to my portfolio</p>
