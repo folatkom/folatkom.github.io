@@ -32,7 +32,6 @@ body{
 }
 #welcome-section{
   font-size:1.5rem;
-  /*background-color:#F2B705;*/
   background-image: url("img\\background-1.jpg");
   padding-top:40vh;
   height: 100vh;
