@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
-*{
+*, *::after, *::before{
   box-sizing: border-box;
   text-align: center;
 }
@@ -71,6 +71,7 @@ h1{
   position: relative;
   top:-29px;
   border-radius: 50%;
+  z-index: -1;
 }
 #tech-left-first{
   animation: techs-appear-left .5s .5s both ease-in-out;
@@ -202,7 +203,7 @@ hr{
   opacity: 0;
 }
 aside{
-  width: 615px;
+  width: 915px;
   margin: 20px auto auto 150px;
   text-align: center;
   color: black;
@@ -212,11 +213,14 @@ aside{
 h3{
   letter-spacing: 2px;
 }
+#container{
+  display: flex;
+}
 img{
   padding: 2px;
   border-radius: 20px;
 }
-#tile-1-sm{
+.visible-sm{
   display: none;
 }
 .hover{
@@ -245,12 +249,21 @@ footer a{
 .visible-xs{
   display: none;
 }
-@media(max-width: 991px){
+@media(max-width: 942px){
   #projects{
     height:auto;
   }
   aside{
+    margin-right: 0;
     width: 100%;
+    align-items: center;
+    padding-left: 15px
+  }
+  .visible-lg{
+    display: none;
+  }  
+  .visible-sm{
+    display: inherit;
   }
 }
 @media(max-width: 767px){
@@ -262,9 +275,6 @@ footer a{
   }
   #welcome{
     width: 100%;
-  }
-  aside{
-    padding-left: 20px;
   }
   footer{
     flex-direction: column;
@@ -278,22 +288,20 @@ footer a{
     display: none;
   }
 }
-@media(max-width: 642px){
-  #tile-1{
-    display: none;
-  }  
-  #tile-1-sm{
-    display: inherit;
-  }
+@media(max-width: 636px){
   #projects{
     background: linear-gradient(90deg,white,#ffe6f2,#ffcce6, #cccccc, #8c8c8c);
     padding-top: 0;
     padding-bottom: 50px;
     margin-bottom: 30px;
+    min-height: 1350px;
   }
   aside{
     font-size: .8em;
     margin-top: 0;
+  }
+  .dot{
+    display: none;
   }
 }
 @media(max-width: 350px){

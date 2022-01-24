@@ -1,6 +1,6 @@
 	let imgNum = 1;
 	let timer;
-for (let i=1; i<=3; i++){
+for (let i=1; i<=4; i++){
 	$("#tile-"+i).hover(function() {
 	$(".tile").addClass("hover");
 	$("#tile-"+i).removeClass("hover");
@@ -11,6 +11,7 @@ for (let i=1; i<=3; i++){
 			imgNum = 0;
 		}	
 	}
+
 	timer = setInterval(slider,1200)
 	},function() {
 		$(".tile").removeClass("hover");

@@ -3,7 +3,7 @@
 <head>
 	<title>folatkom | portfolio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 <body>
 <header>
@@ -22,7 +22,7 @@
       <div class="techs">
         <div id="tech-left-first" class="tech tech-left">HTML</div>
         <div id="tech-left-second"class="tech tech-left">CSS</div>
-        <div id="tech-left-third" class="tech tech-left">SASS</div>
+        <div id="tech-left-third" class="tech tech-left">WordPress</div>
       </div>
       <div id="welcome-md" class="visible-md">
        hello world<br> 
@@ -123,10 +123,18 @@
   </div>
   <aside>
     <h3>Here are some of my projects:</h3>
-    <div><a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img id="tile-1" class="tile" src="img\img-10.png" alt="Screenshot of restaurant site" width="605px"></a></div>
-    <a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img id="tile-1-sm" class="tile" src="img\img-10-sm.png" alt="Screenshot of restaurant site" width="300px"></a>
-    <a  href="https://folatkom.github.io/memory-game/" target="_blank"><img id="tile-2" class="tile" src="img\img-20.png" alt="Screenshot of memory game" width="300px"></a>
-    <a  href="https://folatkom.github.io/blink-game/" target="_blank"><img id="tile-3" class="tile" src="img\img-30.png" alt="Screenshot of blink game"  width="300px"></a>
+ 	<div id="container">
+ 		<div class="visible-lg">
+ 			<a href="https://monika.szkolenia.sains.pl/" target="_blank"><img id="tile-4" class="tile " src="img\img-40.png" alt="Screenshot of WordPress blog" height="761px"></a>
+ 		</div>
+ 		<div>
+ 			<a href="https://monika.szkolenia.sains.pl/" target="_blank"><img id="tile-5" class="tile visible-sm" src="img\img-40-sm.png" alt="Screenshot of WordPress blog" width="300px"></a>
+ 			<a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img id="tile-1" class="tile visible-lg" src="img\img-10.png" alt="Screenshot of restaurant site" width="605px"></a>
+    		<a href="https://folatkom.github.io/restaurant-site/" target="_blank"><img id="tile-6" class="tile visible-sm" src="img\img-10-sm.png" alt="Screenshot of restaurant site" width="300px"></a>
+    		<a  href="https://folatkom.github.io/memory-game/" target="_blank"><img id="tile-2" class="tile" src="img\img-20.png" alt="Screenshot of memory game" width="300px"></a>
+    		<a  href="https://folatkom.github.io/blink-game/" target="_blank"><img id="tile-3" class="tile" src="img\img-30.png" alt="Screenshot of blink game"  width="300px"></a>
+ 		</div>
+	</div>
   </aside>
     </p>
   </section>
