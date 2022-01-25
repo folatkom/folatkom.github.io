@@ -285,7 +285,7 @@ footer a{
     display: none;
   }
 }
-@media(max-width: 604px){
+@media(max-width: 605px){
   #projects{
     background: linear-gradient(90deg,white,#ffe6f2,#ffcce6, #cccccc, #8c8c8c);
     padding-top: 0;
