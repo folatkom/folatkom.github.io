@@ -96,14 +96,12 @@ h1{
 }
 .tech-left::after{
   left: 115px;
-  border-right: 1px solid #4d4d4d;
 }
 .tech-right::before{
   right: -500px;
 }
 .tech-right:after{
   right:15px;
-  border-left: 1px solid #4d4d4d;
 }
 @keyframes techs-appear-left{
   from{
@@ -254,10 +252,9 @@ footer a{
     height:auto;
   }
   aside{
-    margin-right: 0;
     width: 100%;
-    align-items: center;
-    padding-left: 15px
+    margin: auto;
+      right: 0px;
   }
   .visible-lg{
     display: none;
@@ -288,20 +285,23 @@ footer a{
     display: none;
   }
 }
-@media(max-width: 636px){
+@media(max-width: 604px){
   #projects{
     background: linear-gradient(90deg,white,#ffe6f2,#ffcce6, #cccccc, #8c8c8c);
     padding-top: 0;
     padding-bottom: 50px;
     margin-bottom: 30px;
-    min-height: 1350px;
+    min-height: 0;
   }
-  aside{
-    font-size: .8em;
-    margin-top: 0;
+  .row,.row2{
+    display: none;
   }
   .dot{
     display: none;
+  }
+  aside{
+    font-size: .8em;
+    position: relative;
   }
 }
 @media(max-width: 350px){
