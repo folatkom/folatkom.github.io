@@ -96,12 +96,14 @@ h1{
 }
 .tech-left::after{
   left: 115px;
+  border-right: 1px solid #4d4d4d;
 }
 .tech-right::before{
   right: -500px;
 }
 .tech-right:after{
   right:15px;
+  border-left: 1px solid #4d4d4d;
 }
 @keyframes techs-appear-left{
   from{
